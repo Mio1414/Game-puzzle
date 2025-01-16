@@ -1,0 +1,12 @@
+div.number{
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-size: 40px;
+    width: 80%;
+    height: 80%;
+    background-color: rgb(23, 51, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

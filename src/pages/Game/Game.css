@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main > section{
+    /* width: 800px;
+    height: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+main > section > div{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 252, 252);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(5, 71, 71);
+}
