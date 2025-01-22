@@ -209,6 +209,7 @@ const Game = () => {
             const el1 = field[i]
             const el2 = field[i + 1]
             if (el1 && el2 && el1.value > el2.value) {
+                
                 isWin = false
             }
         }
