@@ -120,7 +120,7 @@ const Game = () => {
         let el2
         let temp
 
-        switch (direction) {
+        switch (direction) { //Нужно подумать над проверками
             case Direction.TOP:
                 el1 = newField[newEmpty + numLines]
                 el2 = newField[newEmpty]
@@ -205,7 +205,7 @@ const Game = () => {
     }
     const checkIsWin = () => {
         let isWin = true
-        for (let i = 0; i < 14; i++) {
+        for (let i = 0; i < 14; i++) {//Нужно заменить 14
             const el1 = field[i]
             const el2 = field[i + 1]
             if (el1 && el2 && el1.value > el2.value) {
